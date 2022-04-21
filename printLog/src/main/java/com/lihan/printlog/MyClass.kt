@@ -1,12 +1,15 @@
 package com.lihan.printlog
 
-object MyClass {
+class MyClass {
 
-    fun printKotlin(){
-        println("Hello kotlin")
-    }
-    fun printJava(){
-        println("Hello Java")
+    companion object{
+        fun printKotlin(){
+            println("Hello kotlin")
+        }
+        fun printJava(){
+            println("Hello Java")
+        }
+
     }
 
 
