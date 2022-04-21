@@ -1,6 +1,6 @@
 package com.lihan.printlog
 
-class MyClass {
+object MyClass {
 
     fun printKotlin(){
         println("Hello kotlin")
